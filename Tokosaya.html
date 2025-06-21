@@ -1,0 +1,429 @@
+<!--
+--  Downloaded from : https://haxor.my.id/save/danz_market_sits.html
+--  Official Web : https://prinsh.com
+--  script-deface-generator.prinsh.com
+-->
+<html class="scroll-smooth" lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   ZXC SHOP -Toko Online 
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0b1120;
+      color: #f0f0f0;
+      min-height: 100vh;
+    }
+    /* Star animation */
+    .star {
+      position: absolute;
+      background: white;
+      border-radius: 50%;
+      opacity: 0.8;
+      animation: twinkle 3s infinite alternate;
+    }
+    @keyframes twinkle {
+      0% {
+        opacity: 0.2;
+        transform: scale(1);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1.3);
+      }
+    }
+    /* Planet floating */
+    .planet-float {
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }
+    /* Scrollbar for dashboard */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1a2238;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #4f46e5;
+      border-radius: 10px;
+      border: 2px solid #1a2238;
+    }
+  </style>
+ </head>
+ <body class="relative overflow-x-hidden min-h-screen flex flex-col">
+  <!-- Background stars -->
+  <div aria-hidden="true" class="fixed inset-0 -z-10 overflow-hidden">
+   <!-- 50 stars randomly placed -->
+   <div class="star" style="width:3px; height:3px; top:5%; left:10%; animation-delay: 0s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:15%; left:20%; animation-delay: 1s;">
+   </div>
+   <div class="star" style="width:4px; height:4px; top:25%; left:30%; animation-delay: 2s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:35%; left:40%; animation-delay: 3s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:45%; left:50%; animation-delay: 4s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:55%; left:60%; animation-delay: 5s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:65%; left:70%; animation-delay: 6s;">
+   </div>
+   <div class="star" style="width:4px; height:4px; top:75%; left:80%; animation-delay: 7s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:85%; left:90%; animation-delay: 8s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:95%; left:95%; animation-delay: 9s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:10%; left:15%; animation-delay: 1.5s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:20%; left:25%; animation-delay: 2.5s;">
+   </div>
+   <div class="star" style="width:4px; height:4px; top:30%; left:35%; animation-delay: 3.5s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:40%; left:45%; animation-delay: 4.5s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:50%; left:55%; animation-delay: 5.5s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:60%; left:65%; animation-delay: 6.5s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:70%; left:75%; animation-delay: 7.5s;">
+   </div>
+   <div class="star" style="width:4px; height:4px; top:80%; left:85%; animation-delay: 8.5s;">
+   </div>
+   <div class="star" style="width:3px; height:3px; top:90%; left:95%; animation-delay: 9.5s;">
+   </div>
+   <div class="star" style="width:2px; height:2px; top:5%; left:5%; animation-delay: 10s;">
+   </div>
+  </div>
+  <!-- Planet image floating top right -->
+  <img alt="Ilustrasi planet ungu dengan permukaan bertekstur dan cahaya lembut, melayang di latar belakang gelap bertabur bintang" class="fixed top-10 right-10 w-36 h-36 planet-float pointer-events-none select-none -z-10" height="150" src="https://storage.googleapis.com/a1aa/image/582aa86c-f3ea-4fc3-3540-59e92c008109.jpg" width="150"/>
+  <!-- Logo DANZ MARKET top left -->
+  <header class="flex items-center justify-between px-6 py-4 bg-gradient-to-r from-indigo-900 via-indigo-700 to-indigo-900 shadow-lg sticky top-0 z-30">
+   <a class="flex items-center space-x-3" href="#">
+    <img alt="Logo DANZ MARKET berupa huruf DM dengan desain modern dan warna ungu gradasi" class="w-12 h-12 rounded-full shadow-lg" height="48" src="https://storage.googleapis.com/a1aa/image/1d4ba546-bc23-43aa-e4c9-6652299ebd4d.jpg" width="48"/>
+    <span class="text-2xl font-extrabold tracking-wide text-white select-none">
+     ZXC SHOP
+    </span>
+   </a>
+   <nav class="space-x-6 text-white font-semibold hidden md:flex">
+    <a class="hover:text-indigo-300 transition" href="#dashboard">
+     Dashboard
+    </a>
+    <a class="hover:text-indigo-300 transition" href="#products">
+     Produk
+    </a>
+    <a class="hover:text-indigo-300 transition" href="#info">
+     Informasi
+    </a>
+    <a class="hover:text-indigo-300 transition cursor-pointer hidden" href="#" id="logoutBtn">
+     Logout
+    </a>
+   </nav>
+   <button class="md:hidden text-white focus:outline-none" id="menuBtn">
+    <i class="fas fa-bars fa-lg">
+    </i>
+   </button>
+  </header>
+  <!-- Mobile menu -->
+  <nav class="hidden flex-col space-y-4 bg-indigo-900 px-6 py-4 text-white font-semibold md:hidden" id="mobileMenu">
+   <a class="hover:text-indigo-300 transition" href="#dashboard">
+    Dashboard
+   </a>
+   <a class="hover:text-indigo-300 transition" href="#products">
+    Produk
+   </a>
+   <a class="hover:text-indigo-300 transition" href="#info">
+    Informasi
+   </a>
+   <a class="hover:text-indigo-300 transition cursor-pointer hidden" href="#" id="mobileLogoutBtn">
+    Logout
+   </a>
+  </nav>
+  <!-- Main container -->
+  <main class="flex-grow px-6 py-8 max-w-7xl mx-auto w-full">
+   <!-- Login & Register container -->
+   <section class="max-w-md mx-auto bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg p-8 mt-12" id="authSection">
+    <h2 class="text-3xl font-extrabold text-center mb-6 select-none">
+     Selamat Datang di ZXC MARKET
+    </h2>
+    <p class="text-center text-indigo-300 mb-8">
+     Halo Selamat Datang Di dalam Toko ZXC SHOP Toko
+     online termurah dan teraman kami menjual berbagai barang legal yang murah dan berkualitas Sangat bagus Buruan Login untuk mengakses dashboard Anda agar belanja semakin mudah🔥
+    </p>
+    <div class="space-y-6" id="loginForm">
+     <h3 class="text-xl font-semibold text-white mb-4">
+      Login
+     </h3>
+     <form autocomplete="off" class="space-y-4" id="formLogin">
+      <div>
+       <label class="block mb-1 font-semibold" for="loginUsername">
+        Username
+       </label>
+       <input class="w-full rounded-md px-3 py-2 text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="loginUsername" name="loginUsername" placeholder="Masukkan username" required="" type="text"/>
+      </div>
+      <div>
+       <label class="block mb-1 font-semibold" for="loginPassword">
+        Password
+       </label>
+       <input class="w-full rounded-md px-3 py-2 text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="loginPassword" name="loginPassword" placeholder="Masukkan password" required="" type="password"/>
+      </div>
+      <button class="w-full bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" type="submit">
+       Masuk
+      </button>
+     </form>
+     <p class="text-center text-indigo-300 mt-4">
+      Belum punya akun?
+      <button class="text-indigo-400 hover:text-indigo-200 font-semibold underline cursor-pointer" id="showRegisterBtn">
+       Daftar di sini
+      </button>
+     </p>
+    </div>
+    <div class="space-y-6 hidden" id="registerForm">
+     <h3 class="text-xl font-semibold text-white mb-4">
+      Registrasi
+     </h3>
+     <form autocomplete="off" class="space-y-4" id="formRegister">
+      <div>
+       <label class="block mb-1 font-semibold" for="registerUsername">
+        Username
+       </label>
+       <input class="w-full rounded-md px-3 py-2 text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="registerUsername" name="registerUsername" placeholder="Buat username" required="" type="text"/>
+      </div>
+      <div>
+       <label class="block mb-1 font-semibold" for="registerPassword">
+        Password
+       </label>
+       <input class="w-full rounded-md px-3 py-2 text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="registerPassword" name="registerPassword" placeholder="Buat password" required="" type="password"/>
+      </div>
+      <div>
+       <label class="block mb-1 font-semibold" for="registerConfirmPassword">
+        Konfirmasi Password
+       </label>
+       <input class="w-full rounded-md px-3 py-2 text-indigo-900 focus:outline-none focus:ring-2 focus:ring-indigo-500" id="registerConfirmPassword" name="registerConfirmPassword" placeholder="Ulangi password" required="" type="password"/>
+      </div>
+      <button class="w-full bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" type="submit">
+       Daftar
+      </button>
+     </form>
+     <p class="text-center text-indigo-300 mt-4">
+      Sudah punya akun?
+      <button class="text-indigo-400 hover:text-indigo-200 font-semibold underline cursor-pointer" id="showLoginBtn">
+       Masuk di sini
+      </button>
+     </p>
+    </div>
+   </section>
+   <!-- Dashboard container (hidden initially) -->
+   <section class="hidden max-w-7xl mx-auto mt-12 space-y-12" id="dashboardSection">
+    <!-- Dashboard header -->
+    <div class="space-y-4" id="dashboard">
+     <h1 class="text-4xl font-extrabold text-indigo-300 select-none">
+      Dashboard Utama DANZ MARKET
+     </h1>
+     <p class="text-indigo-200 max-w-4xl leading-relaxed">
+      Selamat datang di portal resmi DANZ MARKET, perusahaan terpercaya yang menyediakan berbagai produk berkualitas tinggi untuk kebutuhan Anda. Kami berkomitmen memberikan pelayanan terbaik dan informasi transparan demi kepuasan pelanggan.
+     </p>
+    </div>
+    <!-- Informasi Pemerintahan style -->
+    <section class="bg-indigo-900 bg-opacity-80 rounded-xl p-8 shadow-lg max-w-5xl mx-auto space-y-6" id="info">
+     <h2 class="text-3xl font-bold text-indigo-300 select-none">
+      Informasi Terbaru
+     </h2>
+     <article class="space-y-3">
+      <h3 class="text-xl font-semibold text-white">
+       Pengumuman Kebijakan Baru
+      </h3>
+      <p class="text-indigo-200 leading-relaxed">
+       Mulai tanggal 1 Juli 2024, DANZ MARKET akan menerapkan sistem pembayaran digital yang lebih aman dan efisien untuk kenyamanan pelanggan.
+      </p>
+     </article>
+     <article class="space-y-3">
+      <h3 class="text-xl font-semibold text-white">
+       Program Diskon Musim Panas
+      </h3>
+      <p class="text-indigo-200 leading-relaxed">
+       Nikmati diskon hingga 30% untuk produk-produk pilihan selama bulan Juli dan Agustus 2024. Jangan lewatkan kesempatan ini!
+      </p>
+     </article>
+     <article class="space-y-3">
+      <h3 class="text-xl font-semibold text-white">
+       Ekspansi Cabang Baru
+      </h3>
+      <p class="text-indigo-200 leading-relaxed">
+       DANZ MARKET membuka cabang baru di kota Bandung untuk melayani pelanggan di wilayah Jawa Barat dengan lebih baik.
+      </p>
+     </article>
+    </section>
+    <!-- Produk Section -->
+    <section class="max-w-7xl mx-auto space-y-8" id="products">
+     <h2 class="text-3xl font-bold text-indigo-300 select-none text-center">
+      Produk Unggulan Kami
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 1: Sepatu olahraga warna biru dengan desain modern dan sol karet anti slip" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/1a98de5d-441c-435d-0a7b-281be8c50f2d.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Sepatu Olahraga
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Sepatu olahraga berkualitas tinggi dengan desain ergonomis dan bahan yang nyaman untuk aktivitas sehari-hari.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/sepatu-olahraga', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 2: Tas ransel hitam dengan banyak kompartemen dan bahan tahan air" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/0d7a3ee7-6533-470c-b731-b9925ee71f32.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Tas Ransel Tahan Air
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Tas ransel multifungsi dengan bahan tahan air, cocok untuk aktivitas outdoor dan perjalanan jauh.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/tas-ransel', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 3: Jam tangan digital dengan layar LED dan fitur tahan air" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/636e4c4b-17e4-4c16-362b-f195f0658605.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Jam Tangan Digital
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Jam tangan digital modern dengan layar LED, fitur tahan air, dan desain stylish untuk semua kalangan.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/jam-tangan-digital', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 4: Kacamata hitam dengan frame hitam matte dan lensa polarized" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/7ab90384-15d1-4dcf-69be-e8fed022ccac.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Kacamata Hitam Polarized
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Kacamata hitam dengan lensa polarized yang melindungi mata dari sinar UV dan mengurangi silau.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/kacamata-polarized', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 5: Jaket kulit hitam dengan desain klasik dan jahitan rapi" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/47bb6fe7-1ae0-4c25-4dc5-c1794b1f74a3.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Jaket Kulit Klasik
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Jaket kulit asli dengan desain klasik yang cocok untuk berbagai acara formal dan kasual.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/jaket-kulit', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+      <article class="bg-indigo-900 bg-opacity-80 rounded-xl shadow-lg overflow-hidden flex flex-col">
+       <img alt="Produk 6: Headphone wireless warna hitam dengan kualitas suara jernih dan bass kuat" class="w-full h-48 object-cover" height="250" src="https://storage.googleapis.com/a1aa/image/1fc4126f-538b-4ec4-bbb5-b4736b040726.jpg" width="400"/>
+       <div class="p-4 flex flex-col flex-grow">
+        <h3 class="text-xl font-semibold text-white mb-2">
+         Headphone Wireless
+        </h3>
+        <p class="text-indigo-200 flex-grow leading-relaxed">
+         Headphone wireless dengan teknologi noise cancelling dan baterai tahan lama untuk pengalaman audio terbaik.
+        </p>
+        <button class="mt-4 bg-indigo-600 hover:bg-indigo-700 transition rounded-md py-2 font-semibold text-white" onclick="window.open('https://danzmarket.com/order/headphone-wireless', '_blank')">
+         Order Sekarang
+        </button>
+       </div>
+      </article>
+     </div>
+    </section>
+   </section>
+  </main>
+  <footer class="bg-indigo-900 bg-opacity-90 text-indigo-300 text-center py-6 mt-12 select-none">
+   © 2024 DANZ MARKET. Semua hak cipta dilindungi.
+  </footer>
+  <script>
+   // Simple in-memory "database" for users and admin
+    const usersDB = [
+      { username: "admin", password: "admin123", role: "admin" }
+    ];
+
+    // Current logged in user info
+    let currentUser = null;
+
+    // Elements
+    const authSection = document.getElementById("authSection");
+    const dashboardSection = document.getElementById("dashboardSection");
+    const loginForm = document.getElementById("loginForm");
+    const registerForm = document.getElementById("registerForm");
+    const showRegisterBtn = document.getElementById("showRegisterBtn");
+    const showLoginBtn = document.getElementById("showLoginBtn");
+    const formLogin = document.getElementById("formLogin");
+    const formRegister = document.getElementById("formRegister");
+    const logoutBtn = document.getElementById("logoutBtn");
+    const mobileLogoutBtn = document.getElementById("mobileLogoutBtn");
+    const navLinks = document.querySelectorAll("nav a[href^='#']");
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+
+    // Show register form
+    showRegisterBtn.addEventListener("click", () => {
+      loginForm.classList.add("hidden");
+      registerForm.classList.remove("hidden");
+    });
+
+    // Show login form
+    showLoginBtn.addEventListener("click", () => {
+      registerForm.classList.add("hidden");
+      loginForm.classList.remove("hidden");
+    });
+
+    // Toggle mobile menu
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // Login form submit
+    formLogin.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const username = formLogin.loginUsername.value.trim();
+      const password = formLogin.loginPassword.value.trim();
+
+      const user = usersDB.find(
+        (u) => u.username === username && u.password === password
+      );
+      if (user) {
+        currentUser = user;
+        afterLogin();
+      } else {
+        alert("Username atau password salah.");
+      }
+    });
+
+    // Register form submit
+    formRegister.addEventListener("submit", (e) => {
+      e.prevent
